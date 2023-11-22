@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Интернет-магазин</title>
+</head>
+<body>
+	<main class="row">
+		<section class="col">
+			<div class="form-container">
+				<p class="back">
+					<a href="index.html">&#60;назад</a>
+				</p>
+				<h2 class="form-title">Личный кабинет</h2>
+				<p class="form-subtitle">
+					Если ты зарегистрирован, ты можешь <a href="signin.html" class="form-link">авторизоваться здесь</a>!
+				</p>
+				<form>
+					<div class="input-box">
+						<label class="label" for="email">Email</label>
+						<label class="label-img" for="email">
+							<img src="assets/post.png" class="img-label" alt="">
+						</label>
+						<input type="email" class="input" name="email" placeholder="Введите email">
+					</div>
+					<div class="input-box">
+						<label class="label" for="username">Никнейм</label>
+						<label class="label-img" for="username">
+							<img src="assets/user.png" class="img-label" alt="">
+						</label>
+						<input type="text" class="input" name="username" placeholder="Введите никнейм">
+					</div>
+					<div class="input-box">
+						<label class="label" for="pass">Пароль</label>
+						<label class="label-img" for="pass">
+							<img src="assets/password.png" class="img-label" alt="">
+						</label>
+						<input type="password" class="input" name="password" placeholder="Введите пароль">
+					</div>
+					<div class="input-box last-of-type">
+						<label class="label" for="passconf">Подтвердите пароль</label>
+						<label class="label-img" for="passconf">
+							<img src="assets/password.png" class="img-label" alt="">
+						</label>
+						<input type="password" class="input" placeholder="Подтвердите пароль">
+					</div>
+					<div class="button-container">
+						<button class="button">Зарегистрироваться</button>
+					</div>
+					<div class="social-networks-container">
+						<p class="social-info">или продолжить с</p>
+						<div class="social-networks">
+							<nav class="icons-container">
+								<a href="#">
+									<img src="assets/google.png" class="img-social-network" alt="google">
+								</a>
+								<a href="#" class="last">
+									<img src="assets/vk.svg" class="img-social-network" alt="vk">
+								</a>
+							</nav>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+		<section class="col promo">
+			<div class="promo-box">
+				<div>
+					<img src="assets/pc.png" alt="Картинка монитора" class="promo-image">
+					<h2 class="promo-title">Интернет-магазин</h2>
+					<p class="promo-subtitle">Макет</p>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
